@@ -310,7 +310,7 @@ body {
   }
 
   to {
-    transform: translateX(calc(100vw + 175px)) translateY(20vh);
+    transform: translateX(calc(100vw + 365px)) translateY(20vh);
   }
 }
 
