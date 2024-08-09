@@ -299,7 +299,7 @@ body {
   position: relative;
   width: 175px;
   height: 60px;
-  top: 15vh;
+  top: 5vh;
   left: -175px;
   animation: planeMove 10s linear infinite;
 }
@@ -310,7 +310,7 @@ body {
   }
 
   to {
-    transform: translateX(calc(100vw + 175px)) translateY(100px);
+    transform: translateX(calc(100vw + 175px)) translateY(20vh);
   }
 }
 
@@ -465,6 +465,11 @@ body {
   .tail {
     background-color: #444;
   }
+
+  .plane-sign {
+    background-color: lightgrey;
+  }
+}
 }
 
 /*END BUILDING THE PLANE*/
