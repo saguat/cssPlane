@@ -402,6 +402,45 @@ body {
   left: 120px;
 }
 
+.plane-sign {
+  width: 160px;
+  height: 60px;
+  background-color: white;
+  position: absolute;
+  left: -190px;
+  top: 2px;
+  border-radius: 5px;
+  z-index: 2;
+}
+
+.plane-sign p {
+  text-align: center;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  padding: 0;
+}
+
+.plane-sign-upper-line {
+  border: 1px solid black;
+  position: absolute;
+  width: 50px;
+  transform: rotate(30deg);
+  top: 20px;
+  left: -40px;
+  z-index: 1;
+}
+
+.plane-sign-bottom-line {
+  border: 1px solid black;
+  position: absolute;
+  width: 50px;
+  transform: rotate(-30deg);
+  top: 40px;
+  left: -40px;
+  z-index: 1;
+}
+
 @media only screen and (max-width: 1000px) {
   .cockpit {
     background-color: #165ea7;
